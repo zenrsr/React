@@ -1,0 +1,29 @@
+.container {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.heading {
+  color: #f0bb03;
+  height: 50px;
+  align-self: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Bree serif';
+}
+.info {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 20px;
+  padding: 10px;
+}
+.button {
+  border-radius: 14px;
+  background-color: #ffffff;
+  border-width: 0px;
+  padding: 10px;
+  margin: 20px;
+}
