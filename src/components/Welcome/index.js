@@ -1,16 +1,17 @@
+/* eslint-disable no-unused-vars */
 import {Component} from 'react'
 import './index.css'
 
 class Welcome extends Component {
   state = {
-    status: true,
+    status: false,
   }
 
   toggle = () => {
     const {status} = this.state
 
     this.setState(prevState => ({
-      status: !prevState.stat,
+      status: !prevState.status,
     }))
   }
 
